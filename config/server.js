@@ -4,6 +4,7 @@ module.exports = ({ env }) => ({
   app: {
     keys: env.array('APP_KEYS'),
   },
+  url : "http://mic-d-loadb-1lw6ie5mdruz1-57168286.us-west-2.elb.amazonaws.com/",
   webhooks: {
     populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
   },
